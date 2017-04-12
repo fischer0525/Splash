@@ -1,0 +1,116 @@
+
+body.controller-roots {
+  background-color: #535659
+}
+
+.row.roots {
+  position: relative;
+  margin-top: 15%;
+  float: inherit;
+}
+
+.text.top {
+  a:hover {
+    transition: font-size 60s;
+    font-size: 0px;
+  }
+  margin-bottom: 0px;
+}
+
+.text.bottom {
+  a:hover {
+    transition: font-size 60s;
+    font-size: 0px;
+  }
+  margin-bottom: 0px;
+}
+
+.text.light {
+  color: #FBFBFB;
+}
+
+.text.dark {
+  color: #535659;
+}
+
+.small-6.small-centered.large-centered.columns.top {
+  background-color: #535659;
+  text-align: center;
+  border-top: solid;
+  border-left: solid;
+  border-right: solid;
+  border-width: 3px;
+  border-color: #FBFBFB;
+  border-bottom: none;
+}
+
+.small-6.small-centered.large-centered.columns.bottom {
+  background-color: #FBFBFB;
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #FBFBFB;
+}
+
+footer.controller-roots {
+  margin-bottom: 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  background-color: #535659;
+  // border-top: solid;
+  // border-width: 1px;
+  // border-color: #FBFBFB;
+}
+
+.footerinfo {
+  margin-left: 30px;
+  font-family: "Open Sans";
+  color: #FBFBFB;
+  font-weight: bolder;
+  font-size: 15px;
+  padding-top: 10px;
+  text-decoration:none;
+}
+
+h1 {
+	font-family: "Open Sans";
+	font-size: 99px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 900;
+	line-height: normal;
+}
+h3 {
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p {
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+blockquote {
+	font-family: "Open Sans";
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-family: "Open Sans";
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5714px;
+}

@@ -4,10 +4,10 @@ import ReactDOM from 'react-dom';
 
 
 $(function() {
-  let reactApp = document.getElementById()
+  let reactApp = document.getElementById("splash")
   if(reactApp){
     ReactDOM.render(
-      < />,
+      <Splash />,
       reactApp
     );
   };

@@ -55,19 +55,16 @@ $foundation-palette: (
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
-  defcon-5: #fefefe
 );
-$flame: #f2552c;
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $heavy-gray: #262626;
-$fiery-red: #f2552c;
 $black: #0a0a0a;
 $white: #fefefe;
-$body-background: $heavy-gray;
+$body-background: $white;
 $body-font-color: $black;
-$body-font-family: "Contrail One", Roboto, Arial, sans-serif;
+$body-font-family: "Open Sans Condensed", Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -288,15 +285,6 @@ $callout-link-tint: 30%;
 
 // 14. Card
 // --------
-
-$card-background: $heavy-gray;
-$card-font-color: $body-font-color;
-$card-divider-background: $fiery-red;
-$card-border: none;
-$card-shadow: none;
-$card-border-radius: $global-radius;
-$card-padding: $global-padding;
-$card-margin: $global-margin;
 
 // 15. Close Button
 // ----------------
@@ -617,8 +605,8 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0.5rem;
-$topbar-background: $fiery-red;
+$topbar-background: $light-gray;
 $topbar-submenu-background: $topbar-background;
-$topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
+$topbar-title-spacing: 1rem;
 $topbar-input-width: 200px;
 $topbar-unstack-breakpoint: medium;
