@@ -1,5 +1,13 @@
 
 body.controller-roots {
+  h1 {
+  	font-family: "Open Sans";
+  	font-size: 99px;
+  	font-style: normal;
+  	font-variant: normal;
+  	font-weight: 900;
+  	line-height: normal;
+  }
   background-color: #535659
 }
 
@@ -11,18 +19,20 @@ body.controller-roots {
 
 .text.top {
   a:hover {
-    transition: font-size 60s;
-    font-size: 0px;
+    animation: blinker 1.8s linear infinite;
   }
   margin-bottom: 0px;
 }
 
 .text.bottom {
   a:hover {
-    transition: font-size 60s;
-    font-size: 0px;
+    animation: blinker 1.8s linear infinite;
   }
   margin-bottom: 0px;
+}
+
+@keyframes blinker {
+  50% { opacity: 0; }
 }
 
 .text.light {
@@ -39,7 +49,7 @@ body.controller-roots {
   border-top: solid;
   border-left: solid;
   border-right: solid;
-  border-width: 3px;
+  border-width: 12px;
   border-color: #FBFBFB;
   border-bottom: none;
 }
@@ -74,14 +84,6 @@ footer.controller-roots {
   text-decoration:none;
 }
 
-h1 {
-	font-family: "Open Sans";
-	font-size: 99px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 900;
-	line-height: normal;
-}
 h3 {
 	font-family: "Open Sans";
 	font-size: 14px;
