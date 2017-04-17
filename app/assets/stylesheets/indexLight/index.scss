@@ -1,3 +1,32 @@
+#page1 {
+  background-color: #223A5E;
+  height: 1000px;
+}
+
+#page2 {
+  background-color: #F3D6E4;
+  height: 1000px;
+}
+
+#page3 {
+  background-color: #4F84C4;
+  height: 1000px;
+}
+
+nav.top-bar.light {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  text-align: center;
+}
+
+.menu {
+  display: inline-block;
+}
+
+
 h1 {
 	font-family: "Open Sans";
 	font-size: 24px;
